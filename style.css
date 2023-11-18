@@ -1,9 +1,8 @@
-body{
+body {
     margin: 0;
     padding: 0;
-    background-image: url("/images/pexels-scott-webb-403575.jpg");
-   
-    
+    background-image: url(images/pexels-pixabay-531880.jpg);
+    background-repeat: no-repeat;
 }
 
 #container {
