@@ -9,7 +9,7 @@ body {
     background-color: rgba(0, 0, 0, 0.601);
     border: 10px; border-color: aliceblue; 
     border-style: solid;
-    height: 275px;
+    height: 325px;
     width: 750px;
     margin: 0 auto;
     text-align: center;
@@ -27,4 +27,38 @@ body {
     margin: 25px; grid-auto-flow: auto;
     font-size: 26px;
     color: aliceblue;
+}
+
+#countdown {
+    background-color: rgba(0, 0, 0, 0.601);
+    border: 5px; border-color: aliceblue; 
+    border-style: solid;
+    height: 50px;
+    width: 250px;
+    margin: 50px auto;
+    text-align: center;
+    color: aliceblue;
+    font-size: 22px;
+    
+}
+
+h1 {
+    text-align: center;
+    font-size: 75px;
+    
+  
+}
+
+
+
+h2 {
+    color: black;
+    text-align: center;
+}
+
+.footerBottom {
+    color: aliceblue;
+    padding: 80px;
+    text-align: center;
+
 }
