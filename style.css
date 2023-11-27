@@ -7,6 +7,7 @@
 
 
 body {
+  
     margin: 0;
     padding: 0;
     background-image: url(images/pexels-pixabay-531880.jpg);
@@ -127,7 +128,7 @@ body {
     border: 10px; border-color: aliceblue; 
     border-style: solid;
     height: 350px;
-    width: 700px;
+    width: 750px;
     margin: 0 auto;
     text-align: center;
 }
@@ -147,6 +148,21 @@ body {
 }
 
 #countdown {
+    
+    background-color: rgba(0, 0, 0, 0.601);
+    border: 5px; border-color: aliceblue; 
+    border-style: solid;
+    height: 50px;
+    width: 250px;
+    margin: 50px auto;
+    text-align: center;
+    color: aliceblue;
+    font-size: 20px;
+    
+    
+}
+
+#newyear {
     background-color: rgba(0, 0, 0, 0.601);
     border: 5px; border-color: aliceblue; 
     border-style: solid;
@@ -156,7 +172,12 @@ body {
     text-align: center;
     color: aliceblue;
     font-size: 22px;
+    display: flex;
+    justify-content: center;
     
+    
+    
+
 }
 
 
@@ -166,32 +187,90 @@ body {
 h1 {
     display: flex;
     justify-content: center;
-    text-align: center;
+    align-items: center;
     text-shadow: 30px;
     font-size: 70px;
+    font-family: cursive;
     color: black;
 }
 
-h2 {
-    color: black;
-    text-align: center;
-    font-size: 25px;
-}
 
-.footerBottom {
+
+footer {
     color: aliceblue;
-    padding: 20px;
+    padding: 5px;
     text-align: center;
     margin-top: auto;
+    font-size: 20px;
+    background-color: transparent;
+
+    /* media query below */
+   
+   
 
 }
+
+@media screen and (max-width: 480px) {
+    #container {
+        width: 325px;
+        height: 450px;
+        text-align: center;
+        font-size: small;
+    }
+
+    h1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 40px;
+        text-align: center;
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+        background-image: url(images/pexels-pixabay-531880.jpg);
+        background-repeat: no-repeat;
+
+    }
+
+    footer {
+        color: aliceblue;
+        padding: 5px;
+        text-align: center;
+        margin-top: auto;
+        font-size: 10px;
+        background-color: transparent;
+
+    }
+
+}
+
+@media screen and (min-width: 481px) {
+    .hamburger-menu {display: none}
+}
+
+
+
+
+
+    
+
+
+
+   
+   
+
+
+
+
+
+
     
     
     
     
    
-
-
 
 
 
