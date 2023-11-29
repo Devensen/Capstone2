@@ -188,10 +188,9 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    text-shadow: 30px;
     font-size: 70px;
     font-family: cursive;
-    color: black;
+    color: rgb(0, 0, 0);
 }
 
 
@@ -210,12 +209,18 @@ footer {
 
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 600px) {
     #container {
         width: 325px;
-        height: 450px;
+        height: 475px;
         text-align: center;
-        font-size: small;
+        
+    }
+
+    #output {
+        margin: 25px; grid-auto-flow: auto;
+        font-size: 18px;
+        color: aliceblue;
     }
 
     h1 {
