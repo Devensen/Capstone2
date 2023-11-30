@@ -109,9 +109,11 @@ body {
     padding: 0.5rem 1rem;
     padding-top: calc(var(--hamburger-height) + var(--hamburger-margin) + 1rem);
     background-color: transparent;
-    color: var(--background);
+    color: aliceblue;
     max-width: 10rem;
     min-height: auto;
+    
+
   }
 
   .hamburger-menu:has(input:checked) + .sidebar {
@@ -135,10 +137,13 @@ body {
 
 #btn {
     margin: 50px auto;
+    border: 8px; border-color: black; 
+    border-style: solid;
     height: 50px;
     width: 250px;
     font-size: 22px;
-    background-color: rgba(245, 245, 220, 0.965)41, 241, 241;
+    font-weight: bolder;
+    background-color: aliceblue;
 }
 
 #output {
@@ -185,7 +190,11 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 70px;
+    font-size: 90px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-decoration: underline;
     color: rgb(0, 0, 0);
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 
     'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
@@ -195,11 +204,16 @@ h1 {
 
 
 
+
+
+
+
 footer {
     color: aliceblue;
     padding: 5px;
     text-align: center;
-    margin-top: auto;
+    margin-top: 0;
+    margin-bottom: 0;
     font-size: 20px;
     background-color: transparent;
 
