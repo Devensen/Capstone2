@@ -233,6 +233,17 @@ footer {
         
     }
 
+    #btn {
+        margin: 50px auto;
+        border: 8px; border-color: black; 
+        border-style: solid;
+        height: 50px;
+        width: 250px;
+        font-size: 22px;
+        font-weight: bolder;
+        background-color: aliceblue;
+    }
+
     #output {
         margin: 25px; grid-auto-flow: auto;
         font-size: 18px;
