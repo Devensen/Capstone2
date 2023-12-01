@@ -121,6 +121,8 @@ body {
   .hamburger-menu:has(input:checked) + .sidebar {
     translate: 0;
   }
+
+
   
   /* end of CSS for Hamburger Menu */
 
@@ -220,6 +222,8 @@ h2 {
     'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 
     'Open Sans', 'Helvetica Neue', sans-serif;
 }
+
+
 
 
 

@@ -1,5 +1,30 @@
 const btn = document.getElementById('btn');
 const output = document.getElementById('output');
+const nav = document.querySelector('nav');
+
+const navData = [
+  {
+    navItem: "Home",
+    navLink: "#"
+  },
+  {
+    navItem: "About",
+    navLink: "https://www.linkedin.com/in/rick-e-372bab248/"
+  },
+   {
+    navItem: "Contact",
+    navLink: "mailto:evensenrick@gmail.com" 
+  }
+]
+
+generateDynamicNav = () => {
+  navData.forEach(e => {
+    const navLink = document.createElement('div');
+    navLink.innerHTML = `<a href="${e.navLink}">${e.navItem}</a>`;
+    nav.appendChild(navLink);
+  })
+}
+generateDynamicNav();
 
 const countdownContainer = document.getElementById("countdown");
 
@@ -30,17 +55,7 @@ function updateCountdown() {
 
   countdownContainer.innerHTML = `<p>${days} : ${hours} : ${minutes} : ${seconds}</p>`;
 }
-const listEl = document.querySelector('ul');
 
-fetch('./quote.json')
-.then(res => res.json())
-.then(data => {
-  data.foreach(post => {
-    listEl.insertAdjacentHTML('beforeend', `<li>${post.quote}<li/>`);
-  });
-  
-  
-});
 
 btn.addEventListener('click', getQuote);
 
