@@ -1,6 +1,6 @@
 -Capstone Project Web Development-
 
-Project Description/How to run the application 
+Project Description/How to run the application -  
 this project is an application that will pull you a random inspirational quote, at the press of a button! ive also added a New Year countdown, new year new you!
 
 To run the application, simply clone from the Github Repository, and run it on your machine!
