@@ -30,6 +30,17 @@ function updateCountdown() {
 
   countdownContainer.innerHTML = `<p>${days} : ${hours} : ${minutes} : ${seconds}</p>`;
 }
+const listEl = document.querySelector('ul');
+
+fetch('./quote.json')
+.then(res => res.json())
+.then(data => {
+  data.foreach(post => {
+    listEl.insertAdjacentHTML('beforeend', `<li>${post.quote}<li/>`);
+  });
+  
+  
+});
 
 btn.addEventListener('click', getQuote);
 
